@@ -78,6 +78,7 @@ Further investigate whether customers are individuals or wholesalers and segment
 
 
 __Limitations and Next Steps:__
+
 Data limitations: nearly 1M in sales cannot be attributed to any segment due to large amount of null values in the Customer ID field.
 
 Wholesaler vs Individual: more research needs to be done to measure what percentage of customers are wholesalers vs individuals as they have different behavioural patterns and individuals could be misrepresented as less valuable because wholesalers over-inflate the ‘Champions’ category. 
