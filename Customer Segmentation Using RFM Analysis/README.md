@@ -32,9 +32,22 @@ How should next years’ marketing budget be allocated?
 
 
 
-## Tools Used:
+#### Tools Used:
 
-  SQL and Power BI
+  SQL (PostgreSQL) and Power BI
+
+#### Techniques Used:
+
+- Data cleaning
+- Data aggregation
+- Filtering
+- CTE’s
+- NTILE's
+- Subqueries
+- Window functions
+- CASE WHEN statements
+- Data modeling 
+
 
 
 
@@ -45,35 +58,30 @@ How should next years’ marketing budget be allocated?
 
 ## Key Findings:
 
-  Our ‘Champions’ segment makes up the majority of sales (5.7M) despite only comprising 21.5% of customers. They vastly overtake all other segments in quantity of orders as well.
+- Our ‘Champions’ segment makes up the majority of sales (5.7M) despite only comprising 21.5% of customers. They vastly overtake all other segments in quantity of orders as well.
   
-  ‘Loyal Customers’ similarly make up 18.48% of all segments. While the visuals  suggest they lean much closer to our ‘Average’ customer in terms of sales and orders, their per customer value is significantly higher at 1.85K compared to 0.52K.
+-  ‘Loyal Customers’ similarly make up 18.48% of all segments. While the visuals  suggest they lean much closer to our ‘Average’ customer in terms of sales and orders, their per customer value is significantly higher at 1.85K compared to 0.52K.
   
-  Our ‘At Risk’ customers only make up 6.8% of total customers compared to the ‘Average’ segment at 41.32% yet are responsible for 550K in sales which is over half of our ‘Average’ segment at 930K. 
+-  Our ‘At Risk’ customers only make up 6.8% of total customers compared to the ‘Average’ segment at 41.32% yet are responsible for 550K in sales which is over half of our ‘Average’ segment at 930K. 
   
-  ‘New Customers’ are our smallest segment at 3.2% which is to be expected and our ‘Lost’ segment is also a minority at 8.62% but further research should be done to understand why they churned and if the reason is a cause for concern.
+-  ‘New Customers’ are our smallest segment at 3.2% which is to be expected and our ‘Lost’ segment is also a minority at 8.62% but further research should be done to understand why they churned and if the reason is a cause for concern.
   
 
 
 ## Recommendations:
 
-Concentrate marketing budget allocations to our ‘Champions’, ‘Loyal Customers’ and ‘At Risk’ segments with dedicated marketing strategy for each group. 
+- Concentrate marketing budget allocations to our ‘Champions’, ‘Loyal Customers’ and ‘At Risk’ segments with dedicated marketing strategy for each group. 
 
-Plan out targeted segment-based marketing campaigns for upcoming year.
+- Plan out targeted segment-based marketing campaigns for upcoming year.
 
-**‘Champions’** ⟶ Exclusive early access to new products especially for holiday seasons, thank you messages
+  - **‘Champions’** ⟶ Exclusive early access to new products especially for holiday seasons, thank you messages
+  - **‘Loyal Customers’** ⟶ Incentivise to order by suggesting similar products, bulk order discounts 
+  - **‘At Risk’** ⟶ Win-back strategy, reactivation emails, limited time discount, free shipping
+  - **‘New Customers’** ⟶ One-time second order discount, onboarding email of top products 
+  - **‘Lost’** ⟶ No paid marketing
+  - **‘Average’** ⟶ Further analysis needed. Currently the largest segment yet only accounts for 10% of sales. 
 
-**‘Loyal Customers’** ⟶ Incentivise to order by suggesting similar products, bulk order discounts 
-
-**‘At Risk’** ⟶ Win-back strategy, reactivation emails, limited time discount, free shipping
-
-**‘New Customers’** ⟶ One-time second order discount, onboarding email of top products 
-
-**‘Lost’** ⟶ No paid marketing
-
-**‘Average’** ⟶ Further analysis needed. Currently the largest segment yet only accounts for 10% of sales. 
-
-Further investigate whether customers are individuals or wholesalers and segment both groups separately.
+- Further investigate whether customers are individuals or wholesalers and segment both groups separately.
 
 
 
