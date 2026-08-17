@@ -43,7 +43,7 @@ __Dashboard:__
 
 
 
-__Key findings:__
+__Key Findings:__
 
   Our ‘Champions’ segment makes up the majority of sales (5.7M) despite only comprising 21.5% of customers. They vastly overtake all other segments in quantity of orders as well.
   
@@ -74,3 +74,14 @@ Plan out targeted segment-based marketing campaigns for upcoming year.
 ‘Average’ ⟶ Further analysis needed. Currently the largest segment yet only accounts for 10% of sales. 
 
 Further investigate whether customers are individuals or wholesalers and segment both groups separately.
+
+
+
+__Limitations and Next Steps:__
+Data limitations: nearly 1M in sales cannot be attributed to any segment due to large amount of null values in the Customer ID field.
+
+Wholesaler vs Individual: more research needs to be done to measure what percentage of customers are wholesalers vs individuals as they have different behavioural patterns and individuals could be misrepresented as less valuable because wholesalers over-inflate the ‘Champions’ category. 
+
+‘Average’ segment limitations: turned out to be largest segment yet does not provide clear insights instead acts more as a dump for miscellaneous customers that don’t fit other categories. This potentially could be eased by answering wholesaler vs individual question.
+
+Investigate churn reasons: why have 8.62% of customers fallen into our ‘Lost’ segment?
