@@ -1,4 +1,4 @@
-__Business Problem and Goal:__
+## Business Problem and Goal:
 
   The marketing team for GiftsForAll, a UK based online retailer selling occasion gifts, wants to shift from a generalised marketing strategy across its customer base to a targeted segment approach. They need to reprioritise their marketing expenditures to avoid overspending on low-value customers and underinvesting in high-value ones.
       
@@ -6,7 +6,7 @@ __Business Problem and Goal:__
 
 
 
-__Questions:__
+## Questions:
 
 Who are our most valuable customers?
 
@@ -16,7 +16,7 @@ How should next years’ marketing budget be allocated?
 
 
 
-__The Dataset:__
+## The Dataset:
 
   Transactional dataset containing 8 columns and 540,000+ rows.
   Covers the period 01-12-2010 to 09-12-2011. 
@@ -24,7 +24,7 @@ __The Dataset:__
 
 
 
-__Approach:__
+## Approach:
 1. Cleaned data to deal with duplicate values and nulls.
 2. Did exploratory data analysis to understand the data.
 3. Scored each customer a value between 1 and 5 for RFM analysis on each metric (recency, frequency, and monetary).
@@ -32,18 +32,18 @@ __Approach:__
 
 
 
-__Tools Used:__
+## Tools Used:
 
   SQL and Power BI
 
 
 
-__Dashboard:__
+## Dashboard:
 <img width="1248" height="721" alt="Screenshot 2026-08-16 at 18 55 31" src="https://github.com/user-attachments/assets/cb4d93e3-9027-4499-a655-381d5ea56616" />
 
 
 
-__Key Findings:__
+## Key Findings:
 
   Our ‘Champions’ segment makes up the majority of sales (5.7M) despite only comprising 21.5% of customers. They vastly overtake all other segments in quantity of orders as well.
   
@@ -55,34 +55,34 @@ __Key Findings:__
   
 
 
-__Recommendations:__
+## Recommendations:
 
 Concentrate marketing budget allocations to our ‘Champions’, ‘Loyal Customers’ and ‘At Risk’ segments with dedicated marketing strategy for each group. 
 
 Plan out targeted segment-based marketing campaigns for upcoming year.
 
-‘Champions’ ⟶ Exclusive early access to new products especially for holiday seasons, thank you messages
+**‘Champions’** ⟶ Exclusive early access to new products especially for holiday seasons, thank you messages
 
-‘Loyal Customers’ ⟶ Incentivise to order by suggesting similar products, bulk order discounts 
+**‘Loyal Customers’** ⟶ Incentivise to order by suggesting similar products, bulk order discounts 
 
-‘At Risk’ ⟶ Win-back strategy, reactivation emails, limited time discount, free shipping
+**‘At Risk’** ⟶ Win-back strategy, reactivation emails, limited time discount, free shipping
 
-‘New Customers’ ⟶ One-time second order discount, onboarding email of top products 
+**‘New Customers’** ⟶ One-time second order discount, onboarding email of top products 
 
-‘Lost’ ⟶ No paid marketing
+**‘Lost’** ⟶ No paid marketing
 
-‘Average’ ⟶ Further analysis needed. Currently the largest segment yet only accounts for 10% of sales. 
+**‘Average’** ⟶ Further analysis needed. Currently the largest segment yet only accounts for 10% of sales. 
 
 Further investigate whether customers are individuals or wholesalers and segment both groups separately.
 
 
 
-__Limitations and Next Steps:__
+## Limitations and Next Steps:
 
-Data limitations: nearly 1M in sales cannot be attributed to any segment due to large amount of null values in the Customer ID field.
+**Data limitations:** nearly 1M in sales cannot be attributed to any segment due to large amount of null values in the Customer ID field.
 
-Wholesaler vs Individual: more research needs to be done to measure what percentage of customers are wholesalers vs individuals as they have different behavioural patterns and individuals could be misrepresented as less valuable because wholesalers over-inflate the ‘Champions’ category. 
+**Wholesaler vs Individual:** more research needs to be done to measure what percentage of customers are wholesalers vs individuals as they have different behavioural patterns and individuals could be misrepresented as less valuable because wholesalers over-inflate the ‘Champions’ category. 
 
-‘Average’ segment limitations: turned out to be largest segment yet does not provide clear insights instead acts more as a dump for miscellaneous customers that don’t fit other categories. This potentially could be eased by answering wholesaler vs individual question.
+**‘Average’ segment limitations:** turned out to be largest segment yet does not provide clear insights instead acts more as a dump for miscellaneous customers that don’t fit other categories. This potentially could be eased by answering wholesaler vs individual question.
 
-Investigate churn reasons: why have 8.62% of customers fallen into our ‘Lost’ segment?
+**Investigate churn reasons:** why have 8.62% of customers fallen into our ‘Lost’ segment?
