@@ -10,3 +10,13 @@ CREATE TABLE daily_campaign_performance (date date,
 
 -- confirm csv was imported --
 SELECT * FROM daily_campaign_performance;
+
+CREATE TABLE campaigns (campaign_id text,
+						campaign_name text,
+						channel text,
+						objective text,
+						start_date date,
+						end_date date,
+						planned_budget integer);
+
+SELECT * FROM campaigns;
