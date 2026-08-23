@@ -28,14 +28,6 @@ ON d.campaign_id = c. campaign_id
 GROUP BY d.campaign_id, c.campaign_name, c.planned_budget, c.start_date, c.end_date
 ORDER BY d.campaign_id;
 
--- total orders and revenue per customer and acquisition channel --
-SELECT customer_id, acquisition_channel,
-	COUNT(DISTINCT order_id) AS total_orders,
-	SUM(order_amount) AS total_revenue
-FROM customer_orders
-GROUP BY customer_id, acquisition_channel;
-
-
 
 -- CAMPAIGN MEASURES --
 -- calculating CTR, CPC, CV, ROAS, CAC --
