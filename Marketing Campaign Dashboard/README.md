@@ -48,7 +48,7 @@ The datasets used were:
 
 
 ## Dashboard:
-<img width="1192" height="686" alt="Screenshot 2026-08-20 at 19 08 21" src="https://github.com/user-attachments/assets/cfb32b8e-ee8f-4a1f-8b37-bffb0e0cbd53" />
+<img width="1246" height="698" alt="Screenshot 2026-08-25 at 14 23 38" src="https://github.com/user-attachments/assets/36cda388-a83f-4c50-984e-576c3b625912" />
 
 
 
