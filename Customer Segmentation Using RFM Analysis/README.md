@@ -8,11 +8,9 @@
 
 ## Questions:
 
-Who are our most valuable customers?
-
- What strategies should be implemented to market to each segment?
- 
-How should next years’ marketing budget be allocated?
+- Who are our most valuable customers?
+- What strategies should be implemented to market to each segment?
+- How should next years’ marketing budget be allocated?
 
 
 
