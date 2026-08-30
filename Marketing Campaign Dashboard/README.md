@@ -3,7 +3,7 @@
  Flower Power, a US based fashion brand, runs marketing campaigns across six channels: paid search, paid social, email, display, affiliate and organic social. 
 They want to see whether spend leads to a proportional increase in revenue across channels or if some channels are underperforming.
 
-The aim of is to analyse campaign and channel performance using KPIs such as CTR, CPC, CVR, ROAS and CAC to inform how marketing budget should be redistributed in 2026.
+The aim is to analyse campaign and channel performance using KPIs such as CTR, CPC, CVR, ROAS and CAC to inform how marketing budget should be redistributed in 2026.
 
 
 
